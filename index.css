@@ -311,8 +311,8 @@ background-color: black;
 .table-area{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 table{
     background-color: pink;
