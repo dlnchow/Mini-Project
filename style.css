@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* Tablet */
+@media (max-width: 768px){
+    .navbar .footer{
+        display: none;
+    }
+    img{ width: 90%};
+}
+/* Smaller Tablet */
+@media (max-width: 568px){
+    .navbar .footer{
+        display: none;
+    }
+    img{ width: 90%};
+}
+/* Mobile */
+@media (max-width: 328px){
+    .navbar .footer img{
+        display: block;
+    }
+    img{ width: 90%};
+}    
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background-color: #3A3845;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: auto;
+ }
+.logo{
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+    
+}
+.logo:hover{
+    color: pink;
+    text-shadow: 0 0 25px black
+                0 0 50px black;
+    transform: scale(1.1)
+}
+span{
+    color: pink;
+}
+.navbar a{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: pink;
+    border-bottom: 3px solid pink;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px ;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact:hover{
+    background-color: pink;
+    box-shadow: 0 0 25px pink;
+    color: white;
+}
+/* homepage section starts here */
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 5cm;
+    padding: 30px 15% 0;
+}
+.home h2{
+    font-size: 28px;
+}
+.home h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+.home p{
+    font-size: 13px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 400px;
+    display: flex;
+    gap: 2cm;
+}
+.btn-1{
+    padding: 15px 28px;
+    background: black;
+    color: white;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: pink;
+    color: white;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color: pink;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 300px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: pink;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 6);
+    width: 50px;
+}
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 5cm;
+gap: 3cm;
+background-color: black;
+}
+.about-img img{
+    position: relative;
+    width: 500px;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+.about-content h1{
+    font-size: 40px;
+    color: pink;
+}
+.about-content p{
+    color: white;
+    font-size: 15px;
+    margin: 1cm 0 2cm;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+    font-size: 30px;
+}
+.contact-form form{
+    max-width: 15cm;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3cm;
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.25cm;
+}
+.contact-form form .input-box input{
+    width: 100%;
+    padding: 1cm;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: 1.5rem;
+    resize: none;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #3A3845;
+    margin: auto;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid pink;
+    width: 35px;
+    height: 35px;
+    line-height: 47px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+.footer .social a:hover{
+    transform: scale(1.2);
+    color: pink;
+    border: 1px solid pink;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid pink;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+/* home page section ends here */
+.col{
+    width: 100%;
+    height: 500px;
+    margin: 18px;
+    float: right;
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+}
+.about-me{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 100px 12% 0;
+}
+.about-me h1{
+    font-size: 38px;
+    padding: 0 0 25px;
+    color: pink;
+}
+.about-me p{
+    font-size: 15px;
+    padding: 0 0 25px;
+}
+.about-me2{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(photos/potteryimg.jpg); 
+    background-size: cover;
+    position: sticky;
+    padding: auto;
+    justify-content: center;
+}
+.about-me2 h1{
+    font-size: 38px;
+    color: white;
+    padding: 10% 10% 0 10%
+}
+.about-me2 p{
+    font-size: 18px;
+    color: white;
+    padding: 5% 10% 10% 10%;
+}
+/* about me section ends here */
+.container{
+    background-color: none;
+    width: 100%
+}
+.button-mywork{
+    background-color: pink;
+    border: 1px solid #3A3845;
+    width: 100%;
+    height: 150px;
+    font-size: large;
+    text-align: center;
+    padding-top: 30px; 
+}
+.button-mywork:hover{
+    background-color: #3A3845;
+    color: white;
+    border: 2px solid #3A3845;
+    cursor: pointer;
+}
+/* Portfolio section ends here */
+.table-area{
+    margin: auto;
+}
+table{
+    background-color: beige;
+    border-collapse: collapse;
+    border-color: pink;
+}
+.collum{
+    width: 50%;
+    text-align: center;
+
+}
+.table-area tr{
+    font-size: 20px;
+}
+.table-area tr td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price-col{
+    text-align: right;
+}
+/* services page ends here */
+.branding-display{
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+/* Branding html ends here */
+.drawing{
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+}
+.drawing h1{
+    padding-bottom: 10px;
+}
+.drawing img{
+    padding: 15px;
+    max-width: 500px;
+}
+.pottery{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+.pottery img{
+    padding: 10px;
+    max-width: 500px;
+}
+.resources{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.resources img{
+    max-width: 200px;
+    padding: 10px;
+}
