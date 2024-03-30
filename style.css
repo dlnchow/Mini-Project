@@ -11,22 +11,25 @@
     .navbar .footer{
         display: none;
     }
-    img{ width: 90%};
+    img{ width: 90%;
+    }
 }
 /* Smaller Tablet */
 @media (max-width: 568px){
     .navbar .footer{
         display: none;
     }
-    img{ width: 90%};
+    img{ width: 90%;
+    }
 }
 /* Mobile */
 @media (max-width: 328px){
     .navbar .footer img{
         display: block;
     }
-    img{ width: 90%};
-}    
+    img{ width: 90%;
+    }
+}
 .header{
     position: relative;
     top: 0;
@@ -48,8 +51,8 @@
 }
 .logo:hover{
     color: pink;
-    text-shadow: 0 0 25px black
-                0 0 50px black;
+    text-shadow: 0    0    25px    black
+                0    0    50px     black;
     transform: scale(1.1)
 }
 span{
@@ -295,7 +298,6 @@ background-color: black;
     background-image: url(photos/potteryimg.jpg); 
     background-size: cover;
     position: sticky;
-    padding: auto;
     justify-content: center;
 }
 .about-me2 h1{
@@ -310,7 +312,6 @@ background-color: black;
 }
 /* about me section ends here */
 .container{
-    background-color: none;
     width: 100%
 }
 .button-mywork{
